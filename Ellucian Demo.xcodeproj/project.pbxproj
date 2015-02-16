@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0DEAE5371A924B3700130AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEAE5361A924B3700130AD2 /* AppDelegate.swift */; };
-		0DEAE5391A924B3700130AD2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEAE5381A924B3700130AD2 /* FirstViewController.swift */; };
-		0DEAE53B1A924B3700130AD2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEAE53A1A924B3700130AD2 /* SecondViewController.swift */; };
+		0DEAE5391A924B3700130AD2 /* ProximityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEAE5381A924B3700130AD2 /* ProximityViewController.swift */; };
+		0DEAE53B1A924B3700130AD2 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEAE53A1A924B3700130AD2 /* AttendanceViewController.swift */; };
 		0DEAE53E1A924B3700130AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DEAE53C1A924B3700130AD2 /* Main.storyboard */; };
 		0DEAE5401A924B3700130AD2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DEAE53F1A924B3700130AD2 /* Images.xcassets */; };
 		0DEAE5431A924B3700130AD2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DEAE5411A924B3700130AD2 /* LaunchScreen.xib */; };
@@ -30,8 +30,8 @@
 		0DEAE5311A924B3700130AD2 /* Ellucian Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ellucian Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DEAE5351A924B3700130AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DEAE5361A924B3700130AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DEAE5381A924B3700130AD2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0DEAE53A1A924B3700130AD2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0DEAE5381A924B3700130AD2 /* ProximityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityViewController.swift; sourceTree = "<group>"; };
+		0DEAE53A1A924B3700130AD2 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 		0DEAE53D1A924B3700130AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DEAE53F1A924B3700130AD2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0DEAE5421A924B3700130AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				0DEAE5361A924B3700130AD2 /* AppDelegate.swift */,
-				0DEAE5381A924B3700130AD2 /* FirstViewController.swift */,
-				0DEAE53A1A924B3700130AD2 /* SecondViewController.swift */,
+				0DEAE5381A924B3700130AD2 /* ProximityViewController.swift */,
+				0DEAE53A1A924B3700130AD2 /* AttendanceViewController.swift */,
 				0DEAE53C1A924B3700130AD2 /* Main.storyboard */,
 				0DEAE53F1A924B3700130AD2 /* Images.xcassets */,
 				0DEAE5411A924B3700130AD2 /* LaunchScreen.xib */,
@@ -215,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DEAE53B1A924B3700130AD2 /* SecondViewController.swift in Sources */,
+				0DEAE53B1A924B3700130AD2 /* AttendanceViewController.swift in Sources */,
 				0DEAE5371A924B3700130AD2 /* AppDelegate.swift in Sources */,
-				0DEAE5391A924B3700130AD2 /* FirstViewController.swift in Sources */,
+				0DEAE5391A924B3700130AD2 /* ProximityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
